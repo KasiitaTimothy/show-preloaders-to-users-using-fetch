@@ -1,0 +1,19 @@
+#app {
+  display: grid;
+  align-items: center;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.post img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#loader {
+  display: none;
+}
+
+#loader.show {
+  display: block;
+}
